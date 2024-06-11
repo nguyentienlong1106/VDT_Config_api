@@ -8,8 +8,9 @@ image:
 
 env:
   APP_NAME: "ListVDT"
-  PORT: "8000"
   DB_URI: "mongodb://vdt-db.vdt-final.svc.cluster.local:27017/ListVDT"
 
 service:
+  port: 8000
+  targetPort: 8000
   nodePort: 30852
