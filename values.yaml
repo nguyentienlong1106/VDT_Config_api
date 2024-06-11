@@ -1,0 +1,15 @@
+# backend/values.yaml
+namespace: vdt-final
+replicaCount: 1
+
+image:
+  repository: tienlong1106/git_cicd_api
+  tag: latest
+
+env:
+  APP_NAME: ListVDT
+  PORT: "8000"
+  DB_URI: "mongodb://vdt-db.vdt-final.svc.cluster.local:27017/ListVDT"
+
+service:
+  nodePort: 30852
