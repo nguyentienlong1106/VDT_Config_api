@@ -7,7 +7,7 @@ image:
   tag: latest
 
 env:
-  APP_NAME: ListVDT
+  APP_NAME: "ListVDT"
   PORT: "8000"
   DB_URI: "mongodb://vdt-db.vdt-final.svc.cluster.local:27017/ListVDT"
 
